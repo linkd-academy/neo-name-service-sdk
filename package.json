@@ -1,10 +1,9 @@
 {
   "name": "@linkdacademy/neo-name-service-sdk",
-  "version": "0.1.3",
-  "type": "module",
+  "version": "0.1.4",
   "description": "A SDK for the Neo Name Service (Neo N3) that allows you to interact with the NNS smart contract.",
-  "main": "dist/index.js",
-  "module": "dist/index.cjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
@@ -32,5 +31,8 @@
     "ts-node": "^10.9.2",
     "tsup": "^8.1.0",
     "typescript": "^5.5.2"
+  },
+  "peerDependencies": {
+    "@cityofzion/neon-dappkit": "^0.4.2"
   }
 }
